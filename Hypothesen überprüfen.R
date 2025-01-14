@@ -1,4 +1,5 @@
-setwd("~/Daten-Orchestrierung/Auftrag Lene")
+setwd("~/path/to/your/project/directory")
+
 install.packages("readxl")
 library("readxl")
 df <- read_excel("Daten Variablen .xlsx", na= "NA")
